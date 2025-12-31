@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearest Odd Number</title>
+</head>
+<body>
+
+    <h2>Nearest Odd Number</h2>
+
+    <script>
+        let num = parseInt(prompt("Enter a number:"));
+
+        if (num % 2 === 0) {
+            // If even, nearest odd is num - 1
+            document.write("Nearest odd number is: " + (num - 1));
+        } else {
+            // If already odd
+            document.write("Nearest odd number is: " + num);
+        }
+    </script>
+
+</body>
+</html>
